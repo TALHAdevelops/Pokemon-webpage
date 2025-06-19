@@ -44,8 +44,9 @@
 .nav-2-item img {
   padding-bottom: 10px;
 }
-#item-1:hover {
+#item-1{
   background-color: #919191;
+  color: #ffffff;
 }
 #item-2:hover {
   background-color: #e3350d;
@@ -64,4 +65,42 @@
 }
 #item-7:hover {
   background-color: #1b53ba;
+}
+
+.hero-cards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.side-A{
+
+}
+
+.side-B{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.B-1{
+  border: 1px solid #4DAD5B;
+  background-color: #4DAD5B;
+  align-items: center;
+  border-radius: 10px;
+
+  
+}
+.B-1 img{
+  float: left;
+  width: 35%;
+  height: 35%;
+}
+.B-1 h3{
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  line-height: 1.4;
+  font-size: 1.5rem;
 }
