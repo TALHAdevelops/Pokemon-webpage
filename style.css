@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+.nav-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #d1d5d848;
+  border-bottom: 1px solid #b1b1b1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+.nav-1 img {
+  margin: 0 1px;
+  height: 50px;
+  width: auto;
+  border: 2px solid grey;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.nav-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d1d5d848;
+  border-bottom: 1px solid #b1b1b1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+.nav-2-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 0px;
+  cursor: pointer;
+  color: grey;
+  text-align: center;
+}
+.nav-2-item:hover {
+  color: white;
+}
+.nav-2-item img {
+  padding-bottom: 10px;
+}
+#item-1:hover {
+  background-color: #919191;
+}
+#item-2:hover {
+  background-color: #e3350d;
+}
+#item-3:hover {
+  background-color: #ee6b2f;
+}
+#item-4:hover {
+  background-color: #e6bc2f;
+}
+#item-5:hover {
+  background-color: #4dad5b;
+}
+#item-6:hover {
+  background-color: #30a7d7;
+}
+#item-7:hover {
+  background-color: #1b53ba;
+}
