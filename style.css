@@ -68,6 +68,7 @@
 }
 
 .hero-cards{
+  margin-top: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -101,10 +102,19 @@
   background-color: #E3350D;
   align-items: center;
   border-radius: 10px;
-  width: 280px;
-  height: auto;
+  width: 285px;
+  height: 255px;
+}
+.A-3{
+  border: 1px solid #2279BE;
+  background-color: #2279BE;
+  align-items: center;
+  border-radius: 10px;
+  width: 285px;
+  height: 255px;
 }
 .side-B{
+  padding-top: 170px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -165,4 +175,37 @@ margin-top: -250px;
   float: left;
   line-height: 1.3;
   font-weight: lighter;
+}
+.characters {
+  background-color: gray;
+  display: inline;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1px;
+  
+}
+.char-box{
+  border: 3px solid black;
+
+}
+.char-box h2 {
+   height: 130px;
+   background-color: #313131;
+   color: white;
+   padding: 20px;
+  
+}
+.explore-more{
+  margin-top: 50px;
+  float: right;
+  margin-right: 100px;
+}
+.explore-more button{
+  padding: 15px 20px;
+  background-color:#313131;
+  color: white;
+  font-size: large;
+  border: 1px solid #313131;
+  border-radius: 10px;
 }
