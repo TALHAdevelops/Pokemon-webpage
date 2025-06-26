@@ -407,3 +407,8 @@ li:hover{
   margin: 0px 5px;
   cursor: pointer;
 }
+.legals{
+  margin-top: 10px;
+cursor: pointer;
+  font-size: x-small;
+}
